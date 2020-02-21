@@ -16,8 +16,8 @@ const CreateCards = () => {
             }, []);
 
     return (
-        <div class = "container">
-        <div class = "cards">
+        <div className = "container">
+        <div className = "cards">
         {starwars.map(object => (
             <CardFoundation name = {object.name} birthyear = {object.birth_year} homeworld = {object.homeworld}/>
         ))}
